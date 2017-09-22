@@ -2,8 +2,6 @@
 //  Vertical Aligned Label.swift
 //  Pig Latin
 //
-//  Created by Jonathan Kuhl on 9/21/17.
-//  Copyright © 2017 Jonathan Kuhl. All rights reserved.
 //  https://stackoverflow.com/questions/28605341/vertically-align-text-within-a-uilabel-note-using-autolayout
 
 import UIKit
