@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA11E0EC1F742ACE0047A04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11E0EB1F742ACE0047A04F /* AppDelegate.swift */; };
+		BA11E0EE1F742ACE0047A04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11E0ED1F742ACE0047A04F /* ViewController.swift */; };
+		BA11E0F11F742ACE0047A04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA11E0EF1F742ACE0047A04F /* Main.storyboard */; };
+		BA11E0F31F742ACE0047A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA11E0F21F742ACE0047A04F /* Assets.xcassets */; };
+		BA11E0F61F742ACE0047A04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA11E0F41F742ACE0047A04F /* LaunchScreen.storyboard */; };
+		BA11E0FE1F742AE10047A04F /* Pig Latin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11E0FD1F742AE10047A04F /* Pig Latin.swift */; };
+		BA11E1001F74875C0047A04F /* Vertical Aligned Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11E0FF1F74875C0047A04F /* Vertical Aligned Label.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA11E0E81F742ACE0047A04F /* Pig Latin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pig Latin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA11E0EB1F742ACE0047A04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA11E0ED1F742ACE0047A04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA11E0F01F742ACE0047A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA11E0F21F742ACE0047A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA11E0F51F742ACE0047A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA11E0F71F742ACE0047A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA11E0FD1F742AE10047A04F /* Pig Latin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pig Latin.swift"; sourceTree = SOURCE_ROOT; };
+		BA11E0FF1F74875C0047A04F /* Vertical Aligned Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vertical Aligned Label.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA11E0E51F742ACE0047A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA11E0DF1F742ACD0047A04F = {
+			isa = PBXGroup;
+			children = (
+				BA11E0EA1F742ACE0047A04F /* Pig Latin */,
+				BA11E0E91F742ACE0047A04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA11E0E91F742ACE0047A04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA11E0E81F742ACE0047A04F /* Pig Latin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA11E0EA1F742ACE0047A04F /* Pig Latin */ = {
+			isa = PBXGroup;
+			children = (
+				BA11E0FF1F74875C0047A04F /* Vertical Aligned Label.swift */,
+				BA11E0FD1F742AE10047A04F /* Pig Latin.swift */,
+				BA11E0EB1F742ACE0047A04F /* AppDelegate.swift */,
+				BA11E0ED1F742ACE0047A04F /* ViewController.swift */,
+				BA11E0EF1F742ACE0047A04F /* Main.storyboard */,
+				BA11E0F21F742ACE0047A04F /* Assets.xcassets */,
+				BA11E0F41F742ACE0047A04F /* LaunchScreen.storyboard */,
+				BA11E0F71F742ACE0047A04F /* Info.plist */,
+			);
+			path = "Pig Latin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA11E0E71F742ACE0047A04F /* Pig Latin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA11E0FA1F742ACE0047A04F /* Build configuration list for PBXNativeTarget "Pig Latin" */;
+			buildPhases = (
+				BA11E0E41F742ACE0047A04F /* Sources */,
+				BA11E0E51F742ACE0047A04F /* Frameworks */,
+				BA11E0E61F742ACE0047A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pig Latin";
+			productName = "Pig Latin";
+			productReference = BA11E0E81F742ACE0047A04F /* Pig Latin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA11E0E01F742ACE0047A04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan Kuhl";
+				TargetAttributes = {
+					BA11E0E71F742ACE0047A04F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z34XTQS2MT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA11E0E31F742ACE0047A04F /* Build configuration list for PBXProject "Pig Latin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA11E0DF1F742ACD0047A04F;
+			productRefGroup = BA11E0E91F742ACE0047A04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA11E0E71F742ACE0047A04F /* Pig Latin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA11E0E61F742ACE0047A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA11E0F61F742ACE0047A04F /* LaunchScreen.storyboard in Resources */,
+				BA11E0F31F742ACE0047A04F /* Assets.xcassets in Resources */,
+				BA11E0F11F742ACE0047A04F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA11E0E41F742ACE0047A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA11E0EE1F742ACE0047A04F /* ViewController.swift in Sources */,
+				BA11E1001F74875C0047A04F /* Vertical Aligned Label.swift in Sources */,
+				BA11E0EC1F742ACE0047A04F /* AppDelegate.swift in Sources */,
+				BA11E0FE1F742AE10047A04F /* Pig Latin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA11E0EF1F742ACE0047A04F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA11E0F01F742ACE0047A04F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA11E0F41F742ACE0047A04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA11E0F51F742ACE0047A04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA11E0F81F742ACE0047A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA11E0F91F742ACE0047A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA11E0FB1F742ACE0047A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z34XTQS2MT;
+				INFOPLIST_FILE = "Pig Latin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Pig-Latin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA11E0FC1F742ACE0047A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z34XTQS2MT;
+				INFOPLIST_FILE = "Pig Latin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Pig-Latin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA11E0E31F742ACE0047A04F /* Build configuration list for PBXProject "Pig Latin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA11E0F81F742ACE0047A04F /* Debug */,
+				BA11E0F91F742ACE0047A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA11E0FA1F742ACE0047A04F /* Build configuration list for PBXNativeTarget "Pig Latin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA11E0FB1F742ACE0047A04F /* Debug */,
+				BA11E0FC1F742ACE0047A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA11E0E01F742ACE0047A04F /* Project object */;
+}
